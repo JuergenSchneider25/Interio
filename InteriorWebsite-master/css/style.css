@@ -29,91 +29,6 @@ Table of Contents:
 /* ----------------------------------------------------
 	1) BOOTSTRAP OVERRIDE
 ------------------------------------------------------- */
-.btn{
-	border-radius: 0px;
-	text-decoration: none;
-	padding: 12px 18px;
-	font-size: 12px;
-	line-height: 19px;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	letter-spacing: 3px;
-	border: 2px solid transparent;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-}
-.pagination {	
-	border-radius: 0;
-}
-.pagination>li:first-child>a, .pagination>li:first-child>span{	
-	border-bottom-left-radius: 0;
-	border-top-left-radius: 0;
-}
-.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
-	background-color: #e07232;
-	border-color: #3267e0;
-}
-.pagination>li:last-child>a, .pagination>li:last-child>span{
-	border-bottom-right-radius: 0;
-	border-top-right-radius: 0;
-}
-.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
-	color: #282828;
-}
-.pagination>li>a, .pagination>li>span{
-	color: #282828;
-}
-.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
-	background-color: #3267e0;
-	border-color: #3267e0;
-}
-.form-control{
-	height: 46px;
-	padding: 12px 18px;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	transition: none;
-}
-.form-control:focus{
-	border-color: #999;
-	outline: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-}
-.progress{
-	background-color: #fff;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-.progress-bar {
-	float: left;
-	width: 0;
-	height: 100%;
-	font-size: 12px;
-	line-height: 20px;
-	color: #fff;
-	text-align: center;	
-	background-color: #3267e0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: width .6s ease;
-	-o-transition: width .6s ease;
-	transition: width .6s ease;
-}
-
-
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: transparent;
@@ -371,8 +286,6 @@ a:focus {
 	margin: 0;	
 }
 
-
-
 .head-title h2{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -462,12 +375,7 @@ a:focus {
 	background-color: #D8BA6F;
 	border-color: #D8BA6F;	
 }
-/*loader*/
-.spinner {
-  margin: 0 auto;
-  width: 70px;
-  text-align: center;
-}
+
 .spinner > div {
   width: 18px;
   height: 18px;
@@ -677,7 +585,7 @@ a:focus {
 	padding: 10px 0;
 }
 .service-box i{
-	color: #3267e0;
+	color: #1782ee;
 }
 .service-box{
 	padding-top: 50px;
@@ -1186,15 +1094,7 @@ acronym{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-/*.f-inner:hover{
-	background-color: #798fdd;
-	color: #fff;
-	-webkit-transition: all .4s ease-in-out;
-	-moz-transition: all .4s ease-in-out;
-	-ms-transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
-}*/
+
 .f-inner .col-sm-10{
 	padding-left: 0;
 }
